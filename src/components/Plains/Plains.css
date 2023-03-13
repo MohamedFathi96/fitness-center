@@ -1,0 +1,93 @@
+.plains {
+  padding-inline: 2rem;
+  margin-top: -2rem;
+  color: #fff;
+  position: relative;
+}
+.plains > header {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  font-style: italic;
+  margin-bottom: 4rem;
+}
+.plains .offers {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.offers .plain {
+  width: 15rem;
+  background-color: var(--caloryCard);
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  padding: 2rem 1.4rem;
+}
+.offers .plain > p:first-of-type {
+  font-weight: bold;
+}
+
+.offers .plain > svg {
+  fill: #fff;
+  width: 2rem;
+  height: 2rem;
+}
+
+.offers .plain .price {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.offers .plain:nth-child(2) {
+  background: var(--planCard);
+  scale: 1.1;
+}
+.offers .plain .plain-features {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.offers .plain .plain-features > div {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.offers .plain .plain-features img {
+  width: 1.4rem;
+}
+.offers .plain button {
+  padding: 0.6rem 0;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  border: none;
+  width: 80%;
+  margin: auto;
+  cursor: pointer;
+}
+.offers .plain:nth-child(2) button {
+  color: var(--orange);
+}
+.plain p:last-of-type {
+  font-size: 0.8rem;
+}
+
+.plains .offers .plain .arrow {
+  width: 1.4rem;
+  height: 1.1rem;
+  rotate: 180deg;
+  margin-left: 1rem;
+  vertical-align: middle;
+}
+.plains-blur {
+  width: 70%;
+  height: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

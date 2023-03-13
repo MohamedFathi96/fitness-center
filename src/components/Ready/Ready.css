@@ -1,0 +1,57 @@
+.ready {
+  padding-inline: 2rem;
+  display: flex;
+  gap: 2rem;
+  position: relative;
+}
+.ready > hr {
+  position: absolute;
+  top: -15px;
+  left: 2rem;
+  width: 10rem;
+  border: 2px solid var(--orange);
+  border-radius: 50%;
+  /* border: none; */
+}
+
+.ready .left-ready {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 3rem;
+  font-weight: bold;
+  flex: 1;
+}
+/* .ready .left-ready > div {
+  display: flex;
+  gap: 1rem;
+} */
+
+.ready .right-ready {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.ready .right-ready input {
+  border: none;
+  padding: 1.2rem 3.3rem;
+  background-color: gray;
+  margin-right: 1rem;
+  /* outline: none; */
+}
+.ready .right-ready input::placeholder {
+  color: #fff;
+}
+.ready .right-ready button {
+  padding: 0.7rem 1.8rem;
+  border: none;
+  font-weight: bold;
+  background-color: var(--orange);
+  color: #fff;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
